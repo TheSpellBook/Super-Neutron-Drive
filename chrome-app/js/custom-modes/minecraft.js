@@ -27,9 +27,9 @@ var keywords = (
         "me|tell|msg|w|trigger|"+
        
         // Operator-only commands
-        "achievment|blockdata|clear|clone|debug|defaultgamemode|difficulty|effect|execute|fill|enchant|"+
+        "achievement|blockdata|clear|clone|debug|defaultgamemode|difficulty|effect|execute|fill|enchant|"+
         "gamemode|gamerule|give|kill|particle|playsound|publish|say|scoreboard|seed|setblock|setworldspawn|"+
-        "spawnpoint|spreadplayers|summon|tellraw|testfor|testforblock|time|toggledownfall|tp|weather|xp|"+
+        "spawnpoint|spreadplayers|summon|stats|tellraw|testfor|testforblock|testforblocks|time|toggledownfall|tp|weather|xp|stopsound|"+
        
         // Multiplayer-only commands (only list can be used in Command Blocks)
         "list"
@@ -56,13 +56,14 @@ var keywords = (
  
         // Scoreboard commands
         "objectives|players|teams|"+
-        "list|setdisplay|list|reset|enable|test|operation|empty|join|leave|option|color|"+
-        "friendlyfire|seeFriendlyInvisibles|namtagVisibility|"+
+        "list|setdisplay|list|reset|enable|test|operation|empty|join|leave|option|color|tag|"+
+        "friendlyfire|seeFriendlyInvisibles|nametagVisibility|collisionRule|"+
             "never|hideForOtherTeams|hideForOwnTeam|always|"+
        
         // Gamerules
         "commandBlockOutput|doDaylightCycle|doFireTick|doMobLoot|doMobSpawning|doTileDrops|keepInventory|"+
-        "mobGriefing|naturalRegeneration|logAdminCommands|showDeathMessages"
+        "mobGriefing|naturalRegeneration|logAdminCommands|showDeathMessages|"
+        "sendCommandFeedback|spectatorsGenerateChunks|spawnRadius|disableElytraMovementCheck|reducedDebugInfo|randomTickSpeed|"+
     );
  
  
